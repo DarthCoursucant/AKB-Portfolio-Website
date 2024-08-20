@@ -54,7 +54,7 @@ main {
 .header-page-names {
     font-size: 120%;
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 45px;
 }
 
 #first-header, #second-header, #last-header {
@@ -69,7 +69,15 @@ main {
   height: 45px;
 }
 
+.menu-location img {
+  margin-top: 40px;
+  margin-left: 30px;
+}
 
+#first-header {
+  margin-left: 600px;
+  margin-right: -10px;
+}
 
 /*Menu Code */
 #mymenu {
@@ -83,7 +91,7 @@ main {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #1a472a;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -91,12 +99,14 @@ main {
 }
 
 .menubar a {
-  padding: 8px 8px 8px 32px;
+  padding: 15px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 35px;
+  font-family: "Whisper", cursive;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
+  margin-top: 30px;
 }
 
 .menubar a:hover {
@@ -114,4 +124,20 @@ main {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+#mymenu img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.menubar h2 {
+  font-family: "Whisper", cursive;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.flex-menu {
+  display: none;
 }
