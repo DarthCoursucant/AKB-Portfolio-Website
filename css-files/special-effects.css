@@ -22,3 +22,7 @@
 #contact-links a:hover {
     color: #000080;
 }
+
+#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover {
+    transform: scale(1.2);
+}
