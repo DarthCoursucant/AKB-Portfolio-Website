@@ -1,0 +1,28 @@
+.projects-lists {
+    display: flex;
+}
+
+.project-container img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 9px rgba(129, 129, 129, 0.6);
+  }
+
+.page-title-body {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+  }
+
+.page-title-body h1 {
+    font-size: 50px;
+    font-family: "Whisper", cursive;
+  }
+
+.square-eyes-project-preview {
+    margin-left: 250px;
+}
+
+.community-science-museum-preview, .coruscant-inteligence-agency-preview, .gamehub-preview {
+    margin-left: 50px;
+}
