@@ -28,18 +28,18 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1476445704028-a36e0c798192?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 main {
-    position: relative;
     height: 100%;
     width: 100%;
+    position: relative;
     display: flex;
-    flex-direction: column;
     color: #ffffff;
+    flex-direction: column;
     z-index: 1;
 }
 
@@ -65,13 +65,12 @@ main {
     margin-top: 4%;
 }
 
-#first-header {
-    margin-left: 123%;
+.menu-location img {
+  width: 45px;
+  height: 45px;
 }
 
-#second-header, #last-header {
-    margin-left: 10%;
-}
+
 
 /*Menu Code */
 #mymenu {
