@@ -23,7 +23,7 @@
     color: #000080;
 }
 
-#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover {
+#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover, .show-certifactes-button:hover  {
     transform: scale(1.2);
 }
 
