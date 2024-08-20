@@ -1,36 +1,18 @@
-.container {
-    display: none;
-  }
-
-.choice-button, .container-content {
+.choice-button-choices {
     display: flex;
 }
 
-button {
-    width: 200px;
-    height: 100px;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    border: 2px solid #000;
-    font-family: "Whisper", cursive;
-}
-
-#all-certificates-button {
-    margin-left: 300px;
-}
-
-#all-certificates-button, #code-certificates-button {
-    margin-left: 5%;
-}
-
-.certicate-one img, .certificate-two img, .certicate-only img {
+.certicate-only img {
     width: 300px;
     border-radius: 20px;
 }
 
-.choice-button {
-    margin-top: 5%;
+.container {
+    display: none;
+  }
+
+.certicate-only {
+    margin-left: 40%;
 }
 
 #title-container {
@@ -40,14 +22,17 @@ button {
     font-family: "Whisper", cursive;
 }
 
-.certicate-one {
-    margin-left: 25%;
+
+button {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    font-family: "Whisper", cursive;
+    margin-top: 50px;
 }
 
-.certificate-two {
-    margin-left: 5%;
-}
-
-.certicate-only {
-    margin-left: 40%;
+.show-certifactes-button {
+    margin-left: 200px;
 }
