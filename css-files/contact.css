@@ -3,12 +3,6 @@
     margin: 50px 0px 30px 0px;
 }
 
-.quickly-infomation-thing h1 {
-    font-size: 50px;
-    text-transform: capitalize;
-    font-family: "Whisper", cursive;
-}
-
 .contact-container {
     background-color: #fafafa;
     width: 1000px;
@@ -18,6 +12,7 @@
     box-shadow: 9px 9px 9px rgba(129, 129, 129, 0.8);
     opacity: 0.5;
     color: #000000;
+    margin-top: 100px;
 }
 
 #contact-links a {
@@ -27,4 +22,6 @@
 
 #contact-header h1 {
     font-family: "Whisper", cursive;
+    font-size: 50px;
+    text-transform: capitalize;
 }
