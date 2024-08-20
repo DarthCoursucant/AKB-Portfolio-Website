@@ -10,7 +10,7 @@
     color: #fff204;
 }
 
-.square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover, #design-certificates-button:hover, #all-certificates-button:hover, #code-certificates-button:hover, .certicate-one:hover, .certificate-two:hover, .certicate-only:hover {
+.square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover {
     transform: scale(1.2);
     box-shadow: 11px 11px 11px rgba(129, 129, 129, 0.5);
 }
@@ -25,4 +25,8 @@
 
 #projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover {
     transform: scale(1.2);
+}
+
+.certicate-only img:hover {
+    transform: scale(1.1);
 }
