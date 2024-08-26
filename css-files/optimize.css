@@ -67,3 +67,41 @@
       font-size: 25px;
     }
   }
+
+  @media (max-width: 900px) {
+    #header-index h1 {
+      margin-left: -200px;
+      font-size: 50px;
+      }
+    
+    .index-main-text h2 {
+      font-size: 25px;
+      margin-left: 350px;
+    }
+    
+    #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+        font-size: 20px;
+      }
+    
+    #projects-index-body-link {
+          margin-left: 170px;
+        }
+  }
+
+  @media (max-width: 800px) {
+    #header-index h1 {
+      margin-left: -280px;
+    }
+    
+    .index-main-text h2 {
+      margin-left: 270px;
+    }
+    
+    #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
+          margin-left: 30px;
+        }
+    
+    #projects-index-body-link {
+            margin-left: 150px;
+          }
+  }
