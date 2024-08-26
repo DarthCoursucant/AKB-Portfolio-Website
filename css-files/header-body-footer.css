@@ -52,10 +52,13 @@ main {
 }
 
 .header-page-names {
-    font-size: 40px;
     width: 500px;
     margin-left: 10px;
     margin-top: 45px;
+}
+
+.header-page-names a {
+  font-size: 40px;
 }
 
 #first-header, #second-header, #last-header {
