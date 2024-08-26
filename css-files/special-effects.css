@@ -2,6 +2,10 @@
     color: #44A566;
 }
 
+#about-text-container h1:hover, #about-text-container p:hover {
+    color: #64C7FF;
+}
+
 .square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover {
     transform: scale(1.2);
     box-shadow: 11px 11px 11px rgba(129, 129, 129, 0.5);
@@ -16,7 +20,7 @@
 }
 
 #contact-links a:hover {
-    color: #000080;
+    color: #51E744;
 }
 
 #projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover, .show-certifactes-button:hover, #first-header:hover, #second-header:hover, #last-header:hover, .header-page-names:hover  {
@@ -25,4 +29,8 @@
 
 .certicate-only img:hover {
     transform: scale(1.1);
+}
+
+.contact-container:hover {
+    background-color: #11305E;
 }
