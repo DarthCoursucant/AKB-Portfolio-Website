@@ -16,8 +16,42 @@
     #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
       margin-left: 70px;
     }
+  
+  .header-page-names a {
+    width: 500px;
+    display: flex;
+  }
+  
+  #first-header, #second-header, #last-header {
+    margin-top: 50px;
+  }
+  
+  #first-header {
+    margin-left: 200px;
+  }
+  
+  #second-header, #last-header {
+    margin-left: -30px;
+  }
+  
+  .decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
+    margin-left: -30px;
+  }
+  
+  #about-text-container {
+    margin-left: 90px;
+  }
+  
+  #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+    padding-right: 100px;
+  }
+  
+  .about-me-page-main-header {
+    margin-left: -30px;
+  }
       
   }
+  
   
   @media (max-width: 1200px) {
       #header-index h1 {
