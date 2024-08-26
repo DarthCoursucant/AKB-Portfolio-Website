@@ -153,3 +153,13 @@
         margin-left: 160px;
       }
   }
+
+  @media (max-width: 550px) {
+    .index-main-text h2 {
+        margin-bottom: -30px;
+      }
+    
+    #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+            font-size: 15px;
+          }
+  }
