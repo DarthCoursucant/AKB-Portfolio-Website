@@ -84,8 +84,8 @@
       }
     
     #projects-index-body-link {
-          margin-left: 170px;
-        }
+        margin-left: 170px;
+    }
   }
 
   @media (max-width: 800px) {
@@ -98,10 +98,24 @@
     }
     
     #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
-          margin-left: 30px;
-        }
+        margin-left: 30px;
+    }
     
     #projects-index-body-link {
-            margin-left: 150px;
-          }
+        margin-left: 150px;
+    }
+  }
+
+  @media (max-width: 730px) {
+    #header-index h1 {
+      margin-left: -330px;
+    }
+    
+    .index-main-text h2 {
+      margin-left: 220px;
+    }
+    
+    #projects-index-body-link {
+        margin-left: 100px;
+    }
   }
