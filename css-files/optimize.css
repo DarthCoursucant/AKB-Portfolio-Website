@@ -262,84 +262,101 @@ margin-left: 320px;
 }
 }
     
-    @media (max-width: 900px) {
-        #header-index h1 {
-          margin-left: -200px;
-          font-size: 50px;
-          }
-        
-        .index-main-text h2 {
-          font-size: 25px;
-          margin-left: 350px;
-        }
-        
-        #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
-            font-size: 20px;
-          }
-        
-        #projects-index-body-link {
-            margin-left: 170px;
-        }
-      
-      .decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
-        margin-left: -55px;
-      }
-      
-      .flex-menu {
-        margin-left: 250px;
+@media (max-width: 900px) {
+  #header-index h1 {
+    margin-left: -200px;
+    font-size: 50px;
     }
-      
-      #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-        font-size: 18px;
-        padding-right: 450px;
-      }
-      
-       #header-about h1, #header-about-one h1, #header-about-twice h1 {
-        font-size: 30px;
-      }
-      
-      .about-me-page-main-header h1 {
-        font-size: 30px;
-      }
-      
-      .about-me-page-main-header {
-        margin-bottom: -40px;
-        margin-top: -10px;
-      }
-      }
+  
+  .index-main-text h2 {
+    font-size: 25px;
+    margin-left: 350px;
+  }
+  
+  #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+      font-size: 20px;
+    }
+  
+  #projects-index-body-link {
+      margin-left: 170px;
+  }
 
-      @media (max-width: 850px) {
-        .flex-menu {
-          margin-left: 200px;
-      }
-      }
+.decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
+  margin-left: -55px;
+}
+
+.flex-menu {
+  margin-left: 250px;
+}
+
+#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+  font-size: 18px;
+  padding-right: 450px;
+}
+
+ #header-about h1, #header-about-one h1, #header-about-twice h1 {
+  font-size: 30px;
+}
+
+.about-me-page-main-header h1 {
+  font-size: 30px;
+}
+
+.about-me-page-main-header {
+  margin-bottom: -40px;
+  margin-top: -10px;
+}
+
+button {
+width: 200px;
+font-size: 15px;
+}
+}
+
+@media (max-width: 850px) {
+  .flex-menu {
+    margin-left: 200px;
+}
+
+.certicate-only {
+margin-left: 280px;
+}
+}
       
-      @media (max-width: 800px) {
-          #header-index h1 {
-            margin-left: -280px;
-          }
-          
-          .index-main-text h2 {
-            margin-left: 270px;
-          }
-          
-          #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
-              margin-left: 30px;
-          }
-          
-          #projects-index-body-link {
-              margin-left: 150px;
-          }
-        
-        .flex-menu {
-          margin-left: 150px;
-      }
-        
-        #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-            font-size: 15px;
-            padding-right: 550px;
-          }
-        }
+@media (max-width: 800px) {
+  #header-index h1 {
+    margin-left: -280px;
+  }
+  
+  .index-main-text h2 {
+    margin-left: 270px;
+  }
+  
+  #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
+      margin-left: 30px;
+  }
+  
+  #projects-index-body-link {
+      margin-left: 150px;
+  }
+
+.flex-menu {
+  margin-left: 150px;
+}
+
+#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+    font-size: 15px;
+    padding-right: 550px;
+  }
+
+button {
+width: 170px;
+}
+
+.certicate-only {
+margin-left: 250px;
+}
+}
 
         @media (max-width: 750px) {
           .flex-menu {
@@ -369,6 +386,14 @@ margin-left: 320px;
             .flex-menu {
                     margin-left: 50px;
                 }
+            
+            button {
+              width: 160px;
+            }
+            
+            .certicate-only {
+              margin-left: 210px;
+            }
           }
           
           @media (max-width: 670px) {
