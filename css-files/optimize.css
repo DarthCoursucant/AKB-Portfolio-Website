@@ -183,25 +183,62 @@
     }
     }
 
-  @media (max-width: 900px) {
-    #header-index h1 {
-      margin-left: -200px;
-      font-size: 50px;
-      }
-    
-    .index-main-text h2 {
-      font-size: 25px;
-      margin-left: 350px;
+    @media (max-width: 950px) {
+      #first-header, #second-header, #last-header {
+      display: none;
+    }
+      
+      .flex-menu {
+      display: flex;
+        margin-left: 300px;
+    }
     }
     
-    #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
-        font-size: 20px;
+    @media (max-width: 900px) {
+        #header-index h1 {
+          margin-left: -200px;
+          font-size: 50px;
+          }
+        
+        .index-main-text h2 {
+          font-size: 25px;
+          margin-left: 350px;
+        }
+        
+        #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+            font-size: 20px;
+          }
+        
+        #projects-index-body-link {
+            margin-left: 170px;
+        }
+      
+      .decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
+        margin-left: -55px;
       }
-    
-    #projects-index-body-link {
-        margin-left: 170px;
+      
+      .flex-menu {
+        margin-left: 250px;
     }
-  }
+      
+      #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+        font-size: 18px;
+        padding-right: 450px;
+      }
+      
+       #header-about h1, #header-about-one h1, #header-about-twice h1 {
+        font-size: 30px;
+      }
+      
+      .about-me-page-main-header h1 {
+        font-size: 30px;
+      }
+      
+      .about-me-page-main-header {
+        margin-bottom: -40px;
+        margin-top: -10px;
+      }
+      }
 
   @media (max-width: 800px) {
     #header-index h1 {
