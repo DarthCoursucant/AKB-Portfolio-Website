@@ -268,24 +268,34 @@
       }
         
         #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-              font-size: 15px;
-              padding-right: 550px;
-            }
+            font-size: 15px;
+            padding-right: 550px;
+          }
         }
 
-  @media (max-width: 730px) {
-    #header-index h1 {
-      margin-left: -330px;
-    }
-    
-    .index-main-text h2 {
-      margin-left: 220px;
-    }
-    
-    #projects-index-body-link {
-        margin-left: 100px;
-    }
-  }
+        @media (max-width: 750px) {
+          .flex-menu {
+                  margin-left: 100px;
+              }
+        }
+        
+        @media (max-width: 730px) {
+            #header-index h1 {
+              margin-left: -330px;
+            }
+            
+            .index-main-text h2 {
+              margin-left: 220px;
+            }
+            
+            #projects-index-body-link {
+                margin-left: 100px;
+            }
+          
+          #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+                    padding-right: 600px;
+                  }
+          }
 
   @media (max-width: 670px) {
     #header-index h1 {
