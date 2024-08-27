@@ -49,24 +49,51 @@
   .about-me-page-main-header {
     margin-left: -30px;
   }
-      
   }
-  
   
   @media (max-width: 1200px) {
-      #header-index h1 {
-        margin-left: -150px;
-        margin-top: 0px;
-      }
-      
-      .index-main-text h2 {
-        margin-left: 420px;
-      }
+    #header-index h1 {
+      margin-left: -150px;
+      margin-top: 0px;
+    }
     
-    #projects-index-body-link {
-        margin-left: 150px;
-      }
-  }
+    .index-main-text h2 {
+      margin-left: 420px;
+    }
+  
+  #projects-index-body-link {
+      margin-left: 150px;
+    }
+
+.header-page-names a {
+  font-size: 30px;
+}
+
+#first-header a, #second-header a, #last-header a {
+  font-size: 27px;
+}
+
+#first-header, #second-header, #last-header {
+  margin-top: 40px;
+}
+
+#second-header, #last-header {
+  margin-left: -50px;
+}
+
+#first-header {
+  margin-left: 150px;
+}
+
+#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+  font-size: 25px;
+  padding-right: 200px;
+}
+
+.about-me-page-main-header {
+  margin-left: -60px;
+}
+}
 
   @media (max-width: 1100px) {
     #header-index h1 {
