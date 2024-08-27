@@ -418,6 +418,10 @@ margin-left: 250px;
             #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
                               padding-right: 650px;
                             }
+  
+  .show-certifactes-button {
+    margin-left: 30px;
+  }
             }
 
             @media (max-width: 620px) {
@@ -431,61 +435,74 @@ margin-left: 250px;
             }
             
             @media (max-width: 600px) {
-                #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
-                      margin-left: 20px;
-                  }
-                
-                #projects-index-body-link {
-                      margin-left: 80px;
-                  }
-                
-                #header-index h1 {
-                    margin-left: -380px;
-                  }
-                
-                .index-main-text h2 {
-                    margin-left: 160px;
-                  }
+              #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
+                    margin-left: 20px;
+                }
               
-              .flex-menu {
-                                margin-left: -40px;
-                            }
-              }
+              #projects-index-body-link {
+                    margin-left: 80px;
+                }
+              
+              #header-index h1 {
+                  margin-left: -380px;
+                }
+              
+              .index-main-text h2 {
+                  margin-left: 160px;
+                }
+            
+            .flex-menu {
+                              margin-left: -40px;
+                          }
 
-              @media (max-width: 580px) {
-                #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-                                 padding-right: 750px;
-                               }
-               
-               .flex-menu {
-                                 margin-left: -70px;
+button {
+  font-size: 12px;
+  width: 150px;
+}
+            }
+
+            @media (max-width: 580px) {
+              #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+                               padding-right: 750px;
                              }
-               }
+             
+             .flex-menu {
+                               margin-left: -70px;
+                           }
+
+ button {
+  width: 130px;
+}
+             }
              
              @media (max-width: 550px) {
-                 .index-main-text h2 {
-                     margin-bottom: -30px;
-                   }
-                 
-                 #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
-                         font-size: 15px;
-                       }
-               
-               #header-about h1, #header-about-one h1, #header-about-twice h1 {
-                     font-size: 20px;
-                   }
-               
-               .about-me-page-main-header h1 {
-                 font-size: 25px;
-                 margin-left: 50px;
-                 margin-bottom: -30px;
-               }
-               
-               .flex-menu {
-                                 margin-left: -90px;
-                             }
-               
-               #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-                                 padding-right: 780px;
-                               }
-               }
+              .index-main-text h2 {
+                  margin-bottom: -30px;
+                }
+              
+              #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+                      font-size: 15px;
+                    }
+            
+            #header-about h1, #header-about-one h1, #header-about-twice h1 {
+                  font-size: 20px;
+                }
+            
+            .about-me-page-main-header h1 {
+              font-size: 25px;
+              margin-left: 50px;
+              margin-bottom: -30px;
+            }
+            
+            .flex-menu {
+                              margin-left: -90px;
+                          }
+            
+            #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+                              padding-right: 780px;
+                            }
+
+.certicate-only {
+margin-left: 130px;
+}
+            }
