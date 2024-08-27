@@ -194,41 +194,73 @@ margin-left: 90px;
 }
 }
   
-  @media (max-width: 1000px) {
-      #header-index h1 {
-        margin-left: -200px;
-        font-size: 60px;
-        }
-      
-      .index-main-text h2 {
-        font-size: 30px;
-        margin-left: 350px;
-      }
-      
-      #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
-        font-size: 25px;
-      }
-    
-    #first-header {
-    margin-left: 0px;
+@media (max-width: 1000px) {
+  #header-index h1 {
+    margin-left: -200px;
+    font-size: 60px;
+    }
+  
+  .index-main-text h2 {
+    font-size: 30px;
+    margin-left: 350px;
   }
-    
-    #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-      font-size: 20px;
-      padding-right: 330px;
-    }
-    }
+  
+  #projects-index-body-link a, #about-index-body-link a, #hire-index-body-link a, #certificates-index-body-link a {
+    font-size: 25px;
+  }
 
-    @media (max-width: 950px) {
-      #first-header, #second-header, #last-header {
-      display: none;
-    }
-      
-      .flex-menu {
-      display: flex;
-        margin-left: 300px;
-    }
-    }
+#first-header {
+margin-left: 0px;
+}
+
+#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+  font-size: 20px;
+  padding-right: 330px;
+}
+
+.show-certifactes-button {
+margin-left: 70px;
+}
+
+.certicate-only img {
+width: 200px;
+}
+
+.certicate-only {
+margin-left: 350px;
+}
+
+#title-container {
+margin-left: -85px;
+}
+}
+
+@media (max-width: 950px) {
+  #first-header, #second-header, #last-header {
+  display: none;
+}
+  
+  .flex-menu {
+  display: flex;
+    margin-left: 300px;
+}
+
+.show-certifactes-button {
+margin-left: 50px;
+}
+
+.menubar h2 {
+font-size: 30px;
+}
+
+.menubar a {
+font-size: 20px;
+}
+
+.certicate-only {
+margin-left: 320px;
+}
+}
     
     @media (max-width: 900px) {
         #header-index h1 {
