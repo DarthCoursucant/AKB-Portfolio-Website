@@ -95,7 +95,13 @@
 }
 }
 
-  @media (max-width: 1100px) {
+@media (max-width: 1150px) {
+  #first-header {
+  margin-left: 120px;
+}
+}
+
+@media (max-width: 1100px) {
     #header-index h1 {
         margin-left: -200px;
       }
@@ -111,6 +117,39 @@
       #about-index-body-link, #hire-index-body-link, #certificates-index-body-link {
         margin-left: 50px;
       }
+  
+  #first-header a, #second-header a, #last-header a {
+  font-size: 25px;
+}
+  
+  #second-header, #last-header {
+  margin-left: -60px;
+}
+  
+  #first-header {
+  margin-left: 100px;
+}
+  
+  .decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
+    margin-left: -45px;
+  }
+  
+  #about-text-container {
+    margin-left: 70px;
+  }
+  
+  #header-about h1, #header-about-one h1, #header-about-twice h1 {
+    font-size: 35px;
+  }
+  
+  #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+    font-size: 22px;
+    padding-right: 250px;
+  }
+  
+  .about-me-page-main-header {
+  margin-left: -80px;
+}
   }
 
   @media (max-width: 1000px) {
