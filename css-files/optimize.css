@@ -128,6 +128,10 @@ margin-left: 120px;
   .show-certifactes-button {
   margin-left: 110px;
 }
+
+.square-eyes-project-preview {
+  margin-left: 30px;
+}
 }
 
 @media (max-width: 1100px) {
@@ -203,6 +207,15 @@ margin-left: 100px;
   .contact-container {
     margin-left: 80px;
   }
+
+  .project-container img {
+    width: 250px;
+    height: 150px;
+  }
+  
+  .square-eyes-project-preview {
+    margin-left: 80px;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -270,6 +283,15 @@ margin-left: -85px;
   
   #contact-links a, #contact-links p {
     font-size: 25px;
+  }
+
+  .project-container img {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .square-eyes-project-preview {
+    margin-left: 120px;
   }
 }
 
@@ -354,6 +376,15 @@ font-size: 15px;
     width: 600px;
     margin-left: 120px;
   }
+
+  .square-eyes-project-preview {
+    margin-left: 50px;
+  }
+  
+  .page-title-body h1 {
+    font-size: 30px;
+    margin-left: -50px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -403,6 +434,14 @@ margin-left: 250px;
   .contact-container {
     margin-left: 90px;
   }
+
+  .community-science-museum-preview, .gamehub-preview {
+    margin-left: 30px;
+  }
+  
+  .square-eyes-project-preview {
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -435,6 +474,23 @@ margin-left: 60px;
 .contact-container {
 margin-left: 20px;
 }
+
+.projects-lists {
+  display: block;
+}
+  
+  .square-eyes-project-preview, .community-science-museum-preview, .gamehub-preview {
+    margin-left: 220px;
+  }
+  
+  .community-science-museum-preview, .gamehub-preview {
+    margin-top: 30px;
+  }
+  
+  .project-container img {
+    width: 250px;
+    height: 150px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -461,6 +517,10 @@ font-size: 25px;
 
 #contact-links a, #contact-links p {
 font-size: 20px;
+}
+
+.square-eyes-project-preview, .community-science-museum-preview, .gamehub-preview {
+  margin-left: 200px;
 }
 }
           
@@ -530,6 +590,10 @@ font-size: 20px;
 button {
   font-size: 12px;
   width: 150px;
+}
+
+.square-eyes-project-preview, .community-science-museum-preview, .gamehub-preview {
+  margin-left: 150px;
 }
             }
 
