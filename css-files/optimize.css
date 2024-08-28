@@ -1,3 +1,4 @@
+/* MAX WIDTH 1300PX */
 @media (max-width: 1300px) {
   
   #header-index h1 {
@@ -17,42 +18,42 @@
     margin-left: 70px;
   }
 
-.header-page-names a {
-  width: 500px;
-  display: flex;
-}
+  .header-page-names a {
+    width: 500px;
+    display: flex;
+  }
 
-#first-header, #second-header, #last-header {
-  margin-top: 50px;
-}
+  #first-header, #second-header, #last-header {
+    margin-top: 50px;
+  }
 
-#first-header {
-  margin-left: 200px;
-}
+  #first-header {
+    margin-left: 200px;
+  }
 
-#second-header, #last-header {
-  margin-left: -30px;
-}
+  #second-header, #last-header {
+   margin-left: -30px;
+  }
 
-.decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
-  margin-left: -30px;
-}
+  .decor-section, .decor-section-second, .decor-section-one, .decor-section-last {
+    margin-left: -30px;
+  }
 
-#about-text-container {
-  margin-left: 90px;
-}
+  #about-text-container {
+    margin-left: 90px;
+  }
 
-#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-  padding-right: 100px;
-}
+  #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+    padding-right: 100px;
+  }
 
-.about-me-page-main-header {
-  margin-left: -30px;
-}
+  .about-me-page-main-header {
+    margin-left: -30px;
+  }
 
-.show-certifactes-button {
-  margin-left: 150px;
-}
+  .show-certifactes-button {
+    margin-left: 150px;
+  }
   
   .contact-container {
     margin-left: 100px;
@@ -63,6 +64,7 @@
   }
 }
   
+/* MAX WIDTH 1200PX */
 @media (max-width: 1200px) {
   #header-index h1 {
     margin-left: -150px;
@@ -73,42 +75,42 @@
     margin-left: 420px;
   }
 
-#projects-index-body-link {
+  #projects-index-body-link {
     margin-left: 150px;
   }
 
-.header-page-names a {
-font-size: 30px;
-}
+  .header-page-names a {
+    font-size: 30px;
+  }
 
-#first-header a, #second-header a, #last-header a {
-font-size: 27px;
-}
+  #first-header a, #second-header a, #last-header a {
+    font-size: 27px;
+  }
 
-#first-header, #second-header, #last-header {
-margin-top: 40px;
-}
+  #first-header, #second-header, #last-header {
+    margin-top: 40px;
+  }
 
-#second-header, #last-header {
-margin-left: -50px;
-}
+  #second-header, #last-header {
+    margin-left: -50px;
+  }
 
-#first-header {
-margin-left: 150px;
-}
+  #first-header {
+    margin-left: 150px;
+  }
 
-#paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
-font-size: 25px;
-padding-right: 200px;
-}
+  #paragraph-about p, #paragraph-about-one p, #paragraph-about-twice p {
+    font-size: 25px;
+    padding-right: 200px;
+  }
 
-.about-me-page-main-header {
-margin-left: -60px;
-}
+  .about-me-page-main-header {
+    margin-left: -60px;
+  }
 
-.show-certifactes-button {
-margin-left: 120px;
-}
+  .show-certifactes-button {
+    margin-left: 120px;
+  }
   
   .contact-container {
     width: 900px;
@@ -120,18 +122,19 @@ margin-left: 120px;
   }
 }
 
+/* MAX WIDTH 1150PX */
 @media (max-width: 1150px) {
   #first-header {
-  margin-left: 120px;
-}
+    margin-left: 120px;
+  }
   
   .show-certifactes-button {
-  margin-left: 110px;
-}
+    margin-left: 110px;
+  }
 
-.square-eyes-project-preview {
-  margin-left: 30px;
-}
+  .square-eyes-project-preview {
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 1100px) {
