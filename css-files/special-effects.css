@@ -23,12 +23,16 @@
     color: #51E744;
 }
 
-#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover, .show-certifactes-button:hover, #first-header:hover, #second-header:hover, #last-header:hover, .header-page-names:hover  {
+#projects-index-body-link:hover, #about-index-body-link:hover, #hire-index-body-link:hover, #certificates-index-body-link:hover, .show-certifactes-button:hover, #first-header:hover, #second-header:hover, #last-header:hover  {
     transform: scale(1.2);
 }
 
-.certicate-only img:hover {
+.certicate-only img:hover, .header-page-names:hover {
     transform: scale(1.1);
+}
+
+.header-page-names:hover {
+    margin-left: 20px;
 }
 
 .contact-container:hover {
