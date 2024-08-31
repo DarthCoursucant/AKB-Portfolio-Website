@@ -35,10 +35,6 @@
     margin-left: 20px;
 }
 
-.contact-container:hover {
-    background-color: #11305E;
-}
-
 #header-about h1:hover, #header-about-one h1:hover, #header-about-twice h1:hover {
     transform: scale(1.2);
     margin-left: 130px;
