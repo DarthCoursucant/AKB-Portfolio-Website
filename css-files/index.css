@@ -36,3 +36,12 @@
     margin-left: 560px;
     font-size: 35px;
 }
+
+.buttons-index{
+    display: flex;
+}
+
+.buttons-index a {
+    text-decoration: none;
+    color: #ffffff;
+}
