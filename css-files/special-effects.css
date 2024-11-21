@@ -6,9 +6,13 @@
     color: #64C7FF;
 }
 
-.square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover {
+.square-eyes-project-preview:hover, .community-science-museum-preview:hover, .gamehub-preview:hover, .connect-hub-preview:hover, .the-secrets-of-the-morgue-preview:hover {
     transform: scale(1.2);
-    box-shadow: 11px 11px 11px rgba(129, 129, 129, 0.5);
+    box-shadow: 11px 11px 11px 11px rgba(129, 129, 129, 0.5);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 #contact-header h1:hover, #contact-links p:hover {
