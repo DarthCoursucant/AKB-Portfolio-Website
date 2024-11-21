@@ -19,10 +19,14 @@
     font-family: "Whisper", cursive;
   }
 
-.square-eyes-project-preview {
+.square-eyes-project-preview, .connect-hub-preview {
     margin-left: 250px;
 }
 
-.community-science-museum-preview, .coruscant-inteligence-agency-preview, .gamehub-preview {
+.community-science-museum-preview, .the-secrets-of-the-morgue-preview, .gamehub-preview {
     margin-left: 50px;
+}
+
+.projects-lists {
+  margin-bottom: 50px;
 }
